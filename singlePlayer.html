@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport">
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1-rc2/jquery.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/index.js" type="text/javascript"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+    <link href="css/materialize.min.css" rel="stylesheet" type="text/css" media="all"/>
+
+</head>
+
+<body>
+  <div class="container" style="margin-top:30px;">
+    <a href="singlePlayer.html" class="waves-effect waves-light btn">Single Player</a>
+    <a href="duel.html" class="waves-effect waves-light btn">Duel</a>
+  </div>
+
+  <div class="container" style="margin-top:150px;">
+
+    <form class="col s8">
+      <input type="button" id="btn1" class="waves-effect waves-light btn-large red" value="  " onclick="compPlayer('btn1')"></input>
+      <input type="button" id="btn2" class="waves-effect waves-light btn-large red" value="  " onclick="compPlayer('btn2')"></input>
+      <input type="button" id="btn3" class="waves-effect waves-light btn-large red" value="  " onclick="compPlayer('btn3')"></input>
+    </br>
+    </br>
+      <input type="button" id="btn4" class="waves-effect waves-light btn-large red" value="  " onclick="compPlayer('btn4')"></input>
+      <input type="button" id="btn5" class="waves-effect waves-light btn-large red" value="  " onclick="compPlayer('btn5')"></input>
+      <input type="button" id="btn6" class="waves-effect waves-light btn-large red" value="  " onclick="compPlayer('btn6')"></input>
+    </br>
+    </br>
+      <input type="button" id="btn7" class="waves-effect waves-light btn-large red" value="  " onclick="compPlayer('btn7')"></input>
+      <input type="button" id="btn8" class="waves-effect waves-light btn-large red" value="  " onclick="compPlayer('btn8')"></input>
+      <input type="button" id="btn9" class="waves-effect waves-light btn-large red" value="  " onclick="compPlayer('btn9')"></input>
+    </form>
+  </div>
+
+  <div class="container" style="margin-top:30px;">
+    <h5 class="btn black col s4 right" id="turn" style="visibility:hidden;">X Turn</h5>
+    <button class="waves-effect waves-light btn blue" onclick="reset()">Reset</button>
+  </div>
+
+
+</body>
+
+</html>
